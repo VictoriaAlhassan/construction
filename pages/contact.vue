@@ -47,7 +47,7 @@
                     <span class="sr-only">Telephone</span>
                     <EnvelopeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
                   </dt>
-                  <dd><a class="hover:text-white" href="mailto:hello@example.com">hello@example.com</a></dd>
+                  <dd><a class="hover:text-white" href="mailto:hello@example.com">hello@info.com</a></dd>
                 </div>
               </dl>
             </div>
