@@ -15,28 +15,28 @@
   <div class="container">
     <div class="icon-container">
       <div class="icon-wrapper">
-        <img class="icon" src="/fast.png" alt="fast operations" />
+        <img class="icon" src="./fast.png" alt="fast operations" />
         <div class="text">Fast Operations</div>
         <p class="description">
           vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
         </p>
       </div>
       <div class="icon-wrapper">
-        <img class="icon" src="/construction.png" alt="construction" />
+        <img class="icon" src="./construction.png" alt="construction" />
         <div class="text">Construction</div>
         <p class="description">
           vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
         </p>
       </div>
       <div class="icon-wrapper">
-        <img class="icon" src="/rennovation2.png" alt="rennovation" />
+        <img class="icon" src="./rennovation2.png" alt="rennovation" />
         <div class="text">Rennovation</div>
         <p class="description">
           vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
         </p>
       </div>
       <div class="icon-wrapper">
-        <img class="icon" src="/architecture.png" alt="architecture" />
+        <img class="icon" src="./architecture.png" alt="architecture" />
         <div class="text">Architecture</div>
         <p class="description">
           vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
@@ -56,14 +56,14 @@
       </p>
     </div>
     <div class="image">
-      <img src="/leadingtheway1.jpg" alt="Image" />
+      <img src="./leadingtheway1.jpg" alt="Image" />
     </div>
   </div>
 
   <div class="second-container">
     <div class="second-content">
       <div class="second-image">
-        <img src="/leadingtheway2.jpg" alt="Image" />
+        <img src="./leadingtheway2.jpg" alt="Image" />
       </div>
 
       <div class="second-text">
@@ -91,7 +91,7 @@
 
 <style scoped>
 .homepage {
-  background-image: url("/static/building.jpg");
+  background-image: url("./static/building.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
