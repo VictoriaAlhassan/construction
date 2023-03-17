@@ -1,88 +1,97 @@
 <template>
-   
-    <div class="homepage">
-        <div class="overlay"></div>
-      <div class="homepage-content">
-        <h1>Get Ready.</h1>
-        <h1>We're finishing!</h1>
-      </div>
+  <div class="homepage">
+    <div class="overlay"></div>
+    <div class="homepage-content">
+      <h1>Get Ready.</h1>
+      <h1>We're finishing!</h1>
     </div>
-    <div class=" services flex justify-center items-center h/2-screen">
-        <h1>Our Services</h1>
-    </div>
-     <!-- <p class="paragraph">fxbgjjjjllkmmb vxewdcgvhnhjjgvfcdxwfhgvdggjhkhvcdsgv -->
-                              <!-- cgvmjnkjnkkdffghjjnkjgfgjkjnvgfdshjhjvgfcgft</p> -->
-              
-                              
+  </div>
+  <div class="services flex justify-center items-center h/2-screen">
+    <h1>Our Services</h1>
+  </div>
+  <!-- <p class="paragraph">fxbgjjjjllkmmb vxewdcgvhnhjjgvfcdxwfhgvdggjhkhvcdsgv -->
+  <!-- cgvmjnkjnkkdffghjjnkjgfgjkjnvgfdshjhjvgfcgft</p> -->
+
   <div class="container">
     <div class="icon-container">
       <div class="icon-wrapper">
-        <img class="icon" src="/fast operations.png" alt="fast operations">
+        <img class="icon" src="/fast.png" alt="fast operations" />
         <div class="text">Fast Operations</div>
-        <p class="description">vhsanckavhsjafhvbjshfbvsjf <br>cgvdvhccbhgvzdfchngxhvchdgh</p>
+        <p class="description">
+          vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
+        </p>
       </div>
       <div class="icon-wrapper">
-        <img class="icon" src="/construction.png" alt="construction">
+        <img class="icon" src="/construction.png" alt="construction" />
         <div class="text">Construction</div>
-        <p class="description">vhsanckavhsjafhvbjshfbvsjf <br>cgvdvhccbhgvzdfchngxhvchdgh</p>
+        <p class="description">
+          vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
+        </p>
       </div>
       <div class="icon-wrapper">
-        <img class="icon" src="/rennovation2.png" alt="rennovation">
+        <img class="icon" src="/rennovation2.png" alt="rennovation" />
         <div class="text">Rennovation</div>
-        <p class="description">vhsanckavhsjafhvbjshfbvsjf <br>cgvdvhccbhgvzdfchngxhvchdgh</p>
+        <p class="description">
+          vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
+        </p>
       </div>
       <div class="icon-wrapper">
-        <img class="icon" src="/architecture.png" alt="architecture">
+        <img class="icon" src="/architecture.png" alt="architecture" />
         <div class="text">Architecture</div>
-        <p class="description">vhsanckavhsjafhvbjshfbvsjf <br>cgvdvhccbhgvzdfchngxhvchdgh</p>
+        <p class="description">
+          vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
+        </p>
       </div>
     </div>
   </div>
 
   <div class="card">
     <div class="card-content">
-      <h2 class="text-white">Leading The Way In Building<br>And Civil Construction</h2>
-      <p>Construction is the process of constructing<br> an infrastructure.</p>
+      <h2 class="text-white">
+        Leading The Way In Building<br />And Civil Construction
+      </h2>
+      <p>
+        Construction is the process of constructing<br />
+        an infrastructure.
+      </p>
     </div>
     <div class="image">
-       <img src="/leadingtheway1.jpg" alt="Image">
+      <img src="/leadingtheway1.jpg" alt="Image" />
     </div>
   </div>
- 
+
   <div class="second-container">
     <div class="second-content">
       <div class="second-image">
-        <img src="/leadingtheway2.jpg" alt="Image">
+        <img src="/leadingtheway2.jpg" alt="Image" />
       </div>
-      
-     <div class="second-text">
-         <h1>We Believe In The <br>Power Of Great Ideas</h1>
-         <p>Propper Started its journey in 1995 as Birla<br>
-           Communication Limited with GSM licenses in<br>Gujarat and Maharashtra circles </p>
-          <h2>We Provide</h2>
-          <ul class="two-columns-list">
-            <li><span class="hyphen">-</span> Architect Planning</li>
-            <li><span class="hyphen">-</span>3D Modeling</li>
-            <li><span class="hyphen">-</span> Soil Test</li>
-            <li><span class="hyphen">-</span> Supervision</li>
-            <li><span class="hyphen">-</span> Interior design</li>
-            <li><span class="hyphen">-</span> Rennovation Building</li>
-          </ul>
-     </div>
+
+      <div class="second-text">
+        <h1>We Believe In The <br />Power Of Great Ideas</h1>
+        <p>
+          Propper Started its journey in 1995 as Birla<br />
+          Communication Limited with GSM licenses in<br />Gujarat and
+          Maharashtra circles
+        </p>
+        <h2>We Provide</h2>
+        <ul class="two-columns-list">
+          <li><span class="hyphen">-</span> Architect Planning</li>
+          <li><span class="hyphen">-</span>3D Modeling</li>
+          <li><span class="hyphen">-</span> Soil Test</li>
+          <li><span class="hyphen">-</span> Supervision</li>
+          <li><span class="hyphen">-</span> Interior design</li>
+          <li><span class="hyphen">-</span> Rennovation Building</li>
+        </ul>
+      </div>
     </div>
   </div>
- 
- 
- </template>
-  
+</template>
 
-<script setup>
-
-</script>
+<script setup></script>
 
 <style scoped>
 .homepage {
-  background-image: url('/static/building.jpg');
+  background-image: url("/static/building.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -90,14 +99,14 @@
   align-items: center;
   /* position:relative */
 }
-.hyphen{
-  color:blue;
+.hyphen {
+  color: blue;
 }
-.icon{
-    filter:saturate(50%) hue-rotate(200deg);
-    width:37px;
-    height:37px;
-    /* margin-left: 50px; */
+.icon {
+  filter: saturate(50%) hue-rotate(200deg);
+  width: 37px;
+  height: 37px;
+  /* margin-left: 50px; */
 }
 .overlay {
   position: absolute;
@@ -105,25 +114,30 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(1.5, 1.5, 1.5, 1.5); /* adjust the alpha value to control the darkness */
+  background-color: rgba(
+    1.5,
+    1.5,
+    1.5,
+    1.5
+  ); /* adjust the alpha value to control the darkness */
   z-index: -1;
 }
 
 .homepage-content {
-  margin-left: 50px; 
+  margin-left: 50px;
   color: white;
   text-shadow: 1px 1px 1px black;
   font-size: 80px;
   font-style: bold;
 }
-.services h1{
-    font-size: 25px;
-    margin-top: 35px;
+.services h1 {
+  font-size: 25px;
+  margin-top: 35px;
 }
-.paragraph{
- display: flex;
- justify-content: center; 
- align-items: center;  
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -169,7 +183,7 @@
   background-color: #075878;
   padding: 24px;
   margin-top: 32px;
-  margin-left:35px ;
+  margin-left: 35px;
   margin-right: 30px;
 }
 
@@ -199,7 +213,7 @@ h2 {
 p {
   font-size: 16px;
   line-height: 1.5;
-  color:white;
+  color: white;
   margin-bottom: 24px;
 }
 
@@ -209,8 +223,6 @@ p {
   /* align-items: center; */
   height: 100vh;
   margin-left: 35px;
-  
-
 }
 
 .second-content {
@@ -240,7 +252,6 @@ p {
 
 .second-image {
   flex: 1;
-
 }
 
 .second-image img {
@@ -250,39 +261,7 @@ p {
 .two-columns-list {
   columns: 2;
   list-style-type: none;
-  margin-right:65px;
+  margin-right: 65px;
   padding: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 </style>
