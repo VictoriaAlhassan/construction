@@ -67,7 +67,7 @@ export default {
           alt: "Image 1",
         },
         {
-          src: "/shahousingprocess 2.jpg",
+          src: "/shahousingprocess2.jpg",
           alt: "Image 2",
         },
         {
