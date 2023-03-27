@@ -3,18 +3,19 @@
     <div class="container">
       <h3 class="footer-heading">Our Clients Say</h3>
       <p class="footer-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
-        Suspendisse lectus tortor,<br />
-        dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        Below are just two of the many testimonies our clients share about us.
+        At Sha Housing & Construction,<br />
+        Customer satisfaction is always prioritized!
       </p>
       <div class="testimonial-section">
         <div class="testimonial">
           <div class="testimonial-content">
             <img src="/client1.jpg" alt="Client 1" class="testimonial-img" />
             <p class="testimonial-text">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-              risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing
-              nec, ultricies sed, dolor."
+              Their team was professional, knowledgeable, and always kept me
+              informed throughout the project. Choosing Sha Housing &
+              Construction for my project was the best decision I could have
+              made.
             </p>
           </div>
         </div>
@@ -22,9 +23,10 @@
           <div class="testimonial-content">
             <img src="/client2.jpg" alt="Client 2" class="testimonial-img" />
             <p class="testimonial-text">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-              risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing
-              nec, ultricies sed, dolor."
+              I had an amazing experience working with Sha Housing &
+              Construction! I am so happy with the final result and would highly
+              recommend their services to anyone looking for top-quality
+              construction work
             </p>
           </div>
         </div>
@@ -34,18 +36,21 @@
       <div class="icon-container">
         <div class="icon-wrapper">
           <img class="icon" src="/address.png" alt="address" />
-          <div class="text">Address</div>
-          <p class="description">123 Main St, Anytown, USA</p>
+          <div class="text">Locate Us</div>
+          <p class="description">
+            Kasoa Timber Market Adjacent<br />
+            to the Police Station-C/R
+          </p>
         </div>
         <div class="icon-wrapper">
           <img class="icon" src="/phone.png" alt="phone" />
           <div class="text">Call Us</div>
-          <p class="description">+1-555-1234</p>
+          <p class="description">0242544821/0553390759</p>
         </div>
         <div class="icon-wrapper">
           <img class="icon" src="/email.png" alt="email" />
           <div class="text">Email</div>
-          <p class="description">info@example.com</p>
+          <p class="description">sagbornitor10@gmail.com</p>
         </div>
       </div>
     </div>

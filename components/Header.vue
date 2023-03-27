@@ -4,8 +4,9 @@
       <div
         class="flex w-full items-center justify-between border-b border-indigo-500 py-6 lg:border-none"
       >
-        <div class="flex items-center color-white">
-          <h1>Propper.</h1>
+        <div class="color-white">
+          <h1>SHA</h1>
+          <h3>HOUSING & CONSTRUCTION</h3>
         </div>
         <div class="ml-10 space-x-4">
           <ul class="flex gap-4 color-white">
@@ -22,6 +23,15 @@
 </template>
 
 <style scoped>
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 0;
+}
+h3 {
+  margin-top: 0;
+  margin-left: 0;
+}
 .router-link-exact-active {
   text-decoration: underline;
 }

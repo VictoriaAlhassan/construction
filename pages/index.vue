@@ -2,15 +2,13 @@
   <div class="homepage">
     <div class="overlay"></div>
     <div class="homepage-content">
-      <h1>Get Ready.</h1>
-      <h1>We're finishing!</h1>
+      <h1>For the best.</h1>
+      <h1>With integrity!</h1>
     </div>
   </div>
   <div class="services flex justify-center items-center h/2-screen">
     <h1>Our Services</h1>
   </div>
-  <!-- <p class="paragraph">fxbgjjjjllkmmb vxewdcgvhnhjjgvfcdxwfhgvdggjhkhvcdsgv -->
-  <!-- cgvmjnkjnkkdffghjjnkjgfgjkjnvgfdshjhjvgfcgft</p> -->
 
   <div class="container">
     <div class="icon-container">
@@ -18,28 +16,28 @@
         <img class="icon" src="/fast.png" alt="fast operations" />
         <div class="text">Fast Operations</div>
         <p class="description">
-          vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
+          Property/facility management <br />Cleaning Service
         </p>
       </div>
       <div class="icon-wrapper">
         <img class="icon" src="/construction.png" alt="construction" />
         <div class="text">Construction</div>
         <p class="description">
-          vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
+          Site Supervision/Land Surveying<br />Consultancy
         </p>
       </div>
       <div class="icon-wrapper">
         <img class="icon" src="/rennovation2.png" alt="rennovation" />
         <div class="text">Rennovation</div>
         <p class="description">
-          vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
+          Interior Decoration of Buildings<br />Home Rennovation
         </p>
       </div>
       <div class="icon-wrapper">
         <img class="icon" src="/architecture.png" alt="architecture" />
         <div class="text">Architecture</div>
         <p class="description">
-          vhsanckavhsjafhvbjshfbvsjf <br />cgvdvhccbhgvzdfchngxhvchdgh
+          Architectural Drawing/ Designs<br />Cost Estimation
         </p>
       </div>
     </div>
@@ -56,7 +54,10 @@
       </p>
     </div>
     <div class="image">
-      <img src="/leadingtheway1.jpg" alt="Image" />
+      <video controls autoplay loop muted>
+        <source src="/sha housing vid2.mp4" type="video/mp4" />
+      </video>
+      <!-- <img src="/leadingtheway1.jpg" alt="Image" /> -->
     </div>
   </div>
 
@@ -73,14 +74,14 @@
           Communication Limited with GSM licenses in<br />Gujarat and
           Maharashtra circles
         </p>
-        <h2>We Provide</h2>
+        <h2>We Also Provide</h2>
         <ul class="two-columns-list">
-          <li><span class="hyphen">-</span> Architect Planning</li>
-          <li><span class="hyphen">-</span>3D Modeling</li>
-          <li><span class="hyphen">-</span> Soil Test</li>
-          <li><span class="hyphen">-</span> Supervision</li>
-          <li><span class="hyphen">-</span> Interior design</li>
-          <li><span class="hyphen">-</span> Rennovation Building</li>
+          <li><span class="hyphen">-</span> Building Permit Acquisition</li>
+          <li><span class="hyphen">-</span> Rent,Buy/Sale of Office Space</li>
+          <li><span class="hyphen">-</span> Land Title Registration</li>
+          <li><span class="hyphen">-</span> Land Search</li>
+          <li><span class="hyphen">-</span> Warehouse Acqisition</li>
+          <li><span class="hyphen">-</span> House Aquisition</li>
         </ul>
       </div>
     </div>
