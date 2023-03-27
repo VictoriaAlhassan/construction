@@ -54,7 +54,7 @@
       </p>
     </div>
     <div class="image">
-      <video controls autoplay loopmuted>
+      <video controls autoplay loop muted>
         <source src="/shahousingvid2.mp4" type="video/mp4" />
       </video>
       <!-- <img src="/leadingtheway1.jpg" alt="Image" /> -->
