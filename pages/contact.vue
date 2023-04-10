@@ -114,22 +114,23 @@
           </dl>
         </div>
       </div>
-      <form class="px-6 lg:px-8 lg:pt-14">
+      <form @submit.prevent="submit(form)" class="px-6 lg:px-8 lg:pt-14">
         <div
           class="mx-auto max-w-xl pb-24 pt-20 sm:pb-32 lg:mr-0 lg:max-w-lg lg:py-48"
         >
           <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
             <div>
               <label
-                for="first-name"
+                for="first"
                 class="block text-sm font-semibold leading-6 text-white"
                 >First name</label
               >
               <div class="mt-2.5">
                 <input
                   type="text"
-                  name="first-name"
-                  id="first-name"
+                  v-model="form.first"
+                  name="first"
+                  id="first"
                   autocomplete="given-name"
                   class="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-sm leading-6 text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                 />
@@ -137,15 +138,16 @@
             </div>
             <div>
               <label
-                for="last-name"
+                for="last"
                 class="block text-sm font-semibold leading-6 text-white"
                 >Last name</label
               >
               <div class="mt-2.5">
                 <input
                   type="text"
-                  name="last-name"
-                  id="last-name"
+                  v-model="form.last"
+                  name="last"
+                  id="last"
                   autocomplete="family-name"
                   class="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-sm leading-6 text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                 />
@@ -160,6 +162,7 @@
               <div class="mt-2.5">
                 <input
                   type="email"
+                  v-model="form.email"
                   name="email"
                   id="email"
                   autocomplete="email"
@@ -169,15 +172,16 @@
             </div>
             <div class="sm:col-span-2">
               <label
-                for="phone-number"
+                for="phone"
                 class="block text-sm font-semibold leading-6 text-white"
                 >Phone number</label
               >
               <div class="mt-2.5">
                 <input
                   type="tel"
-                  name="phone-number"
-                  id="phone-number"
+                  v-model="form.phone"
+                  name="phone"
+                  id="phone"
                   autocomplete="tel"
                   class="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-sm leading-6 text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                 />
@@ -192,6 +196,7 @@
               <div class="mt-2.5">
                 <textarea
                   name="message"
+                  v-model="form.message"
                   id="message"
                   rows="4"
                   class="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-sm leading-6 text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -201,7 +206,7 @@
           </div>
           <div class="mt-8 flex justify-end">
             <button
-              type="button"
+              type="submit"
               class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
             >
               Send message
@@ -213,7 +218,17 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const form = ref({
+  first: "",
+  last: "",
+  email: "",
+  phone: "",
+  message: "",
+});
+
+async function submit(form) {}
+</script>
 
 <style scoped>
 img {

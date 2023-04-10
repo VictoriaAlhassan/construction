@@ -3,14 +3,18 @@
     <div class="container">
       <h3 class="footer-heading">Our Clients Say</h3>
       <p class="footer-text">
-        Below are just two of the many testimonies our clients share about us.
-        At Sha Housing & Construction,<br />
+        Below are just two of the many testimonies our clients<br />
+        share about us. At Sha Housing & Construction,<br />
         Customer satisfaction is always prioritized!
       </p>
       <div class="testimonial-section">
         <div class="testimonial">
           <div class="testimonial-content">
-            <img src="/client1.jpg" alt="Client 1" class="testimonial-img" />
+            <img
+              src="/customerreview.jpg"
+              alt="Client 1"
+              class="testimonial-img"
+            />
             <p class="testimonial-text">
               Their team was professional, knowledgeable, and always kept me
               informed throughout the project. Choosing Sha Housing &
@@ -21,7 +25,11 @@
         </div>
         <div class="testimonial">
           <div class="testimonial-content">
-            <img src="/client2.jpg" alt="Client 2" class="testimonial-img" />
+            <img
+              src="/customerreview2.jpg"
+              alt="Client 2"
+              class="testimonial-img"
+            />
             <p class="testimonial-text">
               I had an amazing experience working with Sha Housing &
               Construction! I am so happy with the final result and would highly
@@ -35,7 +43,7 @@
     <div class="footer-icons">
       <div class="icon-container">
         <div class="icon-wrapper">
-          <img class="icon" src="/address.png" alt="address" />
+          <img class="icon" src="/findus.svg" alt="address" />
           <div class="text">Locate Us</div>
           <p class="description">
             Kasoa Timber Market Adjacent<br />
@@ -43,12 +51,12 @@
           </p>
         </div>
         <div class="icon-wrapper">
-          <img class="icon" src="/phone.png" alt="phone" />
+          <img class="icon" src="/call.svg" alt="phone" />
           <div class="text">Call Us</div>
           <p class="description">0242544821/0553390759</p>
         </div>
         <div class="icon-wrapper">
-          <img class="icon" src="/email.png" alt="email" />
+          <img class="icon" src="/Messages.svg" alt="email" />
           <div class="text">Email</div>
           <p class="description">sagbornitor10@gmail.com</p>
         </div>
@@ -58,11 +66,11 @@
 </template>
 
 <style>
-.icon {
-  filter: saturate(50%) hue-rotate(150deg);
-  width: 37px;
-  height: 37px;
-}
+/* .icon { */
+/* filter: saturate(50%) hue-rotate(150deg); */
+/* width: 37px; */
+/* height: 37px; */
+/* } */
 
 .site-footer {
   background-color: #f2f2f2;
@@ -73,6 +81,7 @@
 .footer-heading {
   font-size: 24px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .footer-text {
@@ -95,17 +104,19 @@
 }
 
 .testimonial-img {
-  border-radius: 45%;
+  border-radius: 50px;
   display: block;
   height: 90px;
   margin: 0 auto 20px;
-  width: 100px;
+  width: 90px;
 }
 
 .testimonial-text {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 0;
+  text-align: left;
+  margin-left: 10px;
 }
 .testimonial-content {
   display: flex;

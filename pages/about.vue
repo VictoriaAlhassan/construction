@@ -1,71 +1,10 @@
-<!-- <template>
-  <div class="about-page">
-    <div class="about-content">
-      <h1>About Us</h1>
-      <p>We are a team of skilled professionals dedicated to providing high-quality construction services to our clients. With years of experience in the industry, we pride ourselves on delivering top-notch results that exceed our clients' expectations.</p>
-      <p>At our construction company, we specialize in a wide range of services, including residential and commercial construction, remodeling, renovations, and more. We are committed to providing exceptional craftsmanship, attention to detail, and excellent customer service.</p>
-      <h2>Our Team</h2>
-      <p>Our team of experts includes experienced architects, designers, builders, and project managers. Each member of our team brings a unique set of skills and expertise to every project we undertake.</p>
-      <ul>
-        <li>John Doe - Architect</li>
-        <li>Jane Smith - Designer</li>
-        <li>Tom Jones - Builder</li>
-        <li>Sarah Lee - Project Manager</li>
-      </ul>
-      <h2>Our Mission</h2>
-      <p>Our mission is to provide high-quality construction services to our clients while maintaining the highest standards of safety, sustainability, and ethical practices. We are committed to building long-term relationships with our clients and delivering exceptional results that exceed their expectations.</p>
-    </div>
-  </div>
-</template>
-
-<style>
-.about-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f2f2f2;
-}
-
-.about-content {
-  max-width: 800px;
-  padding: 30px;
-  background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-}
-
-h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 24px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-ul {
-  list-style: none
-}
-</style>
-
- -->
-
 <template>
   <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-    <img
-      src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-      alt=""
-      class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
-    />
+    <!-- <img -->
+    <!-- src="https://images.unsplash.com/photo-1573164574511-73c773193279?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGElMjBncm91cCUyMG9mJTIwYmxhY2slMjBwZW9wbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" -->
+    <!-- alt="" -->
+    <!-- class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center" -->
+    <!-- /> -->
     <svg
       viewBox="0 0 1097 845"
       aria-hidden="true"

@@ -64,7 +64,7 @@
   <div class="second-container">
     <div class="second-content">
       <div class="second-image">
-        <img src="/leadingtheway2.jpg" alt="Image" />
+        <img src="/sha housing 1.jpg" alt="Image" />
       </div>
 
       <div class="second-text">
