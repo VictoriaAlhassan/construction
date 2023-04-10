@@ -31,17 +31,17 @@ export default {
     return {
       images: [
         {
-          src: "/sha housing 1.jpg",
+          src: "/shahousing1.jpg",
           alt: "Image 1",
           description: "Exterior || Villa",
         },
         {
-          src: "/image2.jpg",
+          src: "/shagalleryvid1.mp4",
           alt: "Image 2",
           description: "Architect || Urban development ",
         },
         {
-          src: "/image3.jpg",
+          src: "/shagalleryvid2.mp4",
           alt: "Image 3",
           description: "Exterior || Villa",
         },
