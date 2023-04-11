@@ -3,25 +3,25 @@
     <!-- <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2"> -->
     <div class="relative px-6 pt-14 lg:static lg:px-8">
       <div class="gallery">
-        <div class="title">Finished Projects</div>
+        <div class="title">Projects</div>
         <div class="images">
           <div v-for="(image, index) in images" :key="index" class="grid-item">
             <img :src="image.src" :alt="image.alt" />
-            <div class="caption">{{ image.description }}</div>
+            <!-- <div class="caption">{{ image.description }}</div> -->
           </div>
         </div>
       </div>
-      <div class="gallery">
-        <div class="title">Ongoing Project</div>
-        <div class="images">
-          <div v-for="(image, index) in process" :key="index" class="grid-item">
-            <img :src="image.src" :alt="image.alt" />
-            <div class="caption">{{ image.description }}</div>
-          </div>
-        </div>
-      </div>
+      <!-- <div class="gallery"> -->
+      <!-- <div class="title">Ongoing Project</div> -->
+      <!-- <div class="images"> -->
+      <!-- <div v-for="(image, index) in process" :key="index" class="grid-item"> -->
+      <!-- <img :src="image.src" :alt="image.alt" /> -->
+      <!-- <div class="caption">{{ image.description }}</div> -->
+      <!-- </div> -->
+      <!-- </div> -->
     </div>
   </div>
+  <!-- </div> -->
   <!-- </div> -->
 </template>
 
@@ -33,48 +33,47 @@ export default {
         {
           src: "/shahousing1.jpg",
           alt: "Image 1",
-          description: "Exterior || Villa",
+          // description: "Exterior || Villa",
         },
-        {
-          src: "/shagalleryvid1.mp4",
-          alt: "Image 2",
-          description: "Architect || Urban development ",
-        },
-        {
-          src: "/shagalleryvid2.mp4",
-          alt: "Image 3",
-          description: "Exterior || Villa",
-        },
-        {
-          src: "/image7.jpg",
-          alt: "Image 4",
-          description: "Exterior || cottage",
-        },
-        {
-          src: "/image8.jpg",
-          alt: "Image 5",
-          description: "Interior || Penthouse",
-        },
-        {
-          src: "/image9.jpg",
-          alt: "Image 6",
-          description: "Interior || Bedroom",
-        },
-      ],
-      process: [
         {
           src: "/shahousingprocess1.jpg",
-          alt: "Image 1",
+          alt: "Image 2",
+          // description: "Architect || Urban development ",
         },
         {
           src: "/shahousingprocess2.jpg",
-          alt: "Image 2",
+          alt: "Image 3",
         },
         {
           src: "/shahousingprocess3.jpg",
-          alt: "Image 3",
+          alt: "Image 4",
+          // description: "Exterior || cottage",
         },
+        // {
+        // src: "/image8.jpg",
+        // alt: "Image 5",
+        // description: "Interior || Penthouse",
+        // },
+        // {
+        // src: "/image9.jpg",
+        // alt: "Image 6",
+        // description: "Interior || Bedroom",
+        // },
       ],
+      // process: [
+      // {
+      // src: "/shahousingprocess1.jpg",
+      // alt: "Image 1",
+      // },
+      // {
+      // src: "/shahousingprocess2.jpg",
+      // alt: "Image 2",
+      // },
+      // {
+      // src: "/shahousingprocess3.jpg",
+      // alt: "Image 3",
+      // },
+      // ],
     };
   },
 };
@@ -114,7 +113,7 @@ export default {
   margin-top: 4rem;
   display: grid;
 
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
 }
 
